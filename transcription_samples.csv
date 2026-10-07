@@ -1,0 +1,11 @@
+id,speaker,timestamp,language,transcription,code_switch,confidence,notes
+1,SPEAKER_1,00:02,Twi,"Me rekɔ fie seesei.",No,High,"Clear speech"
+2,SPEAKER_2,00:05,Twi,"Yoo, me nso mereba.",No,High,"Clear response"
+3,SPEAKER_1,00:08,Twi-English,"Mɛyɛ meeting no ɔkyena.",Yes,High,"English word embedded in Twi"
+4,SPEAKER_2,00:12,Twi,"Ɛhe na wokɔɔ nnɛ?",No,High,"Clear question"
+5,SPEAKER_1,00:16,Twi,"Mɛba... mɛba ɔkyena.",No,Medium,"Repetition preserved"
+6,SPEAKER_2,00:20,Twi-English,"Mepɛ sɛ yɛyɛ plan no.",Yes,High,"English word preserved"
+7,SPEAKER_1,00:24,Twi,"[UNCLEAR]",No,Low,"Audio section is difficult to understand"
+8,SPEAKER_2,00:28,Twi,"Yɛbɛhyia anɔpa.",No,High,"Clear speech"
+9,SPEAKER_1,00:32,Twi-English,"Me wɔ office no mu.",Yes,High,"English word preserved"
+10,SPEAKER_2,00:36,Twi,"Ɛyɛ fine, mma ɛnhaw wo.",Yes,High,"Code-switching preserved"
