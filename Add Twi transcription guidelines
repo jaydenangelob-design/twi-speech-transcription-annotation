@@ -1,0 +1,191 @@
+# Twi Speech Transcription Guidelines
+
+## Purpose
+
+These guidelines define a consistent process for transcribing Twi speech data for AI training and evaluation.
+
+The goal is to produce accurate, readable, and consistent transcripts while preserving important characteristics of natural speech.
+
+## 1. Transcription Principles
+
+- Transcribe what the speaker actually says.
+- Do not rewrite speech into more formal Twi.
+- Preserve the original meaning and wording.
+- Use standard spelling where the spoken form is clear.
+- Do not add words that were not spoken.
+- Avoid guessing when audio is unclear.
+
+## 2. Speaker Identification
+
+Use consistent speaker labels:
+
+- `SPEAKER_1`
+- `SPEAKER_2`
+- `SPEAKER_3`
+
+Example:
+
+`SPEAKER_1: Me rekɔ fie.`
+
+`SPEAKER_2: Yoo, me baako.`
+
+## 3. Twi-English Code-Switching
+
+English words spoken inside Twi sentences should be preserved.
+
+Example:
+
+`SPEAKER_1: Mɛyɛ meeting no ɔkyena.`
+
+Do not translate the English word unless the task specifically requires translation.
+
+## 4. Disfluencies
+
+When clearly audible, preserve meaningful speech disfluencies such as:
+
+- repetitions
+- false starts
+- fillers
+
+Example:
+
+`SPEAKER_1: Ɛɛ... me pɛ sɛ mekɔ fie.`
+
+Do not add disfluencies that are not audible.
+
+## 5. Unclear Speech
+
+If a section cannot be confidently understood, mark it as:
+
+`[UNCLEAR]`
+
+Do not invent words to fill gaps.
+
+## 6. Numbers and Names
+
+Transcribe names and numbers as accurately as possible.
+
+If a name or number is unclear, use `[UNCLEAR]` rather than guessing.
+
+## 7. Timestamps
+
+Where timestamps are required, use:
+
+`[00:05]`
+
+Example:
+
+`[00:05] SPEAKER_1: Mɛba ɔkyena.`
+
+## 8. Quality Rules
+
+Before submitting a transcript:
+
+- Check speaker labels.
+- Check spelling.
+- Check code-switching.
+- Check timestamps.
+- Check unclear sections.
+- Compare the transcript with the audio again.
+- Do not introduce information that is not present in the recording.
+
+## 9. Annotation Philosophy
+
+Accuracy is more important than guessing.
+
+When uncertain, clearly mark the uncertainty rather than creating unsupported text.# Twi Speech Transcription Guidelines
+
+## Purpose
+
+These guidelines define a consistent process for transcribing Twi speech data for AI training and evaluation.
+
+The goal is to produce accurate, readable, and consistent transcripts while preserving important characteristics of natural speech.
+
+## 1. Transcription Principles
+
+- Transcribe what the speaker actually says.
+- Do not rewrite speech into more formal Twi.
+- Preserve the original meaning and wording.
+- Use standard spelling where the spoken form is clear.
+- Do not add words that were not spoken.
+- Avoid guessing when audio is unclear.
+
+## 2. Speaker Identification
+
+Use consistent speaker labels:
+
+- `SPEAKER_1`
+- `SPEAKER_2`
+- `SPEAKER_3`
+
+Example:
+
+`SPEAKER_1: Me rekɔ fie.`
+
+`SPEAKER_2: Yoo, me baako.`
+
+## 3. Twi-English Code-Switching
+
+English words spoken inside Twi sentences should be preserved.
+
+Example:
+
+`SPEAKER_1: Mɛyɛ meeting no ɔkyena.`
+
+Do not translate the English word unless the task specifically requires translation.
+
+## 4. Disfluencies
+
+When clearly audible, preserve meaningful speech disfluencies such as:
+
+- repetitions
+- false starts
+- fillers
+
+Example:
+
+`SPEAKER_1: Ɛɛ... me pɛ sɛ mekɔ fie.`
+
+Do not add disfluencies that are not audible.
+
+## 5. Unclear Speech
+
+If a section cannot be confidently understood, mark it as:
+
+`[UNCLEAR]`
+
+Do not invent words to fill gaps.
+
+## 6. Numbers and Names
+
+Transcribe names and numbers as accurately as possible.
+
+If a name or number is unclear, use `[UNCLEAR]` rather than guessing.
+
+## 7. Timestamps
+
+Where timestamps are required, use:
+
+`[00:05]`
+
+Example:
+
+`[00:05] SPEAKER_1: Mɛba ɔkyena.`
+
+## 8. Quality Rules
+
+Before submitting a transcript:
+
+- Check speaker labels.
+- Check spelling.
+- Check code-switching.
+- Check timestamps.
+- Check unclear sections.
+- Compare the transcript with the audio again.
+- Do not introduce information that is not present in the recording.
+
+## 9. Annotation Philosophy
+
+Accuracy is more important than guessing.
+
+When uncertain, clearly mark the uncertainty rather than creating unsupported text.
